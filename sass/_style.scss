@@ -1,0 +1,18 @@
+﻿//**********************************************************/
+@import "mymix";
+//**********************************************************/
+.mypamphletu{
+  &_item{
+    height: 200px !important;
+    //margin-left: 20px;
+    //margin-top: 15px;
+    //position: relative;
+    width: 0.01px;
+    z-index: 556;
+    margin: 0px !important;
+    padding: 0px !important;
+    position: static !important;
+    display: inline-block !important;
+  }
+}
+//@import "thule";

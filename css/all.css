@@ -1,0 +1,35 @@
+/*&:before{
+  background: url("../image/sub.png") 0px 0px no-repeat;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  position: absolute;
+  left: -1px;
+  top: 2px;
+}
+@include old-ie{
+  *zoom: expression(
+    this.runtimeStyle.zoom="1",
+    this.appendChild( document.createElement("small") ).className="before"
+  );
+  .before{
+    background: url("../image/sub.png") 0px 0px no-repeat;
+    width: 20px;
+    height: 12px;      
+    position: absolute;
+    left: -1px;
+    top: 2px; 
+  }
+}*/
+.mypamphletu_item {
+  height: 200px !important;
+  width: 0.01px;
+  z-index: 556;
+  margin: 0px !important;
+  padding: 0px !important;
+  position: static !important;
+  display: inline-block !important;
+}
+
+/*# sourceMappingURL=all.css.map */
