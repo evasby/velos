@@ -47,4 +47,40 @@
   z-index: 390;
 }
 
+#u358 > span {
+  position: relative;
+}
+#u358 > span:hover .mymenu {
+  display: block;
+}
+
+.mymenu {
+  position: absolute;
+  left: 195px;
+  top: 10px;
+  width: 200px;
+  background-color: #ffffff;
+  padding: 38px 0px 0px 15px;
+  display: none;
+}
+.mymenu a {
+  display: block;
+  color: #000000;
+  font-family: "__Turbota_5";
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.mymenu a:visited {
+  color: #000000;
+}
+.mymenu a:hover {
+  color: #376c9c;
+}
+.mymenu a:active {
+  color: #000000;
+}
+.mymenu a:focus {
+  color: #000000;
+}
+
 /*# sourceMappingURL=all.css.map */

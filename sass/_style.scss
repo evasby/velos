@@ -44,3 +44,27 @@
     z-index: 390;
 }
 //@import "thule";
+#u358{
+  &>span{
+    position: relative;
+    &:hover .mymenu{
+      display: block;
+    }
+  }
+}
+.mymenu{
+  position: absolute;
+  left: 195px;
+  top: 10px;
+  width: 200px;
+  background-color: #ffffff;
+  padding: 38px 0px 0px 15px;
+  display: none;
+  a{
+    display: block;
+    @include link(#000000, #376c9c);
+    font-family: "__Turbota_5";
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
